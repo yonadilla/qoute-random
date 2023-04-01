@@ -32,10 +32,6 @@ function App() {
           
   };
 
-    const tweetQuote = () => {
-      const twitterUrl = `https://twitter.com/intent/tweet?text=${quote.text} - ${quote.author}`;
-      window.open (twitterUrl, '_blank');
-    }
 
 
   return (
